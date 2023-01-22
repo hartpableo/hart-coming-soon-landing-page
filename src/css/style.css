@@ -7,3 +7,11 @@
 .container {
     @apply mx-auto relative;
 }
+
+#contact-details li .bi {
+    @apply mr-3;
+}
+
+#contact-details li a {
+    @apply transition hover:text-[#58a6ff];
+}

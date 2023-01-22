@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RedirectMatch 301 /works/ https://hartpableo.com/
+RedirectMatch 301 /feedbacks/ https://hartpableo.com/
+RedirectMatch 301 /blog/ https://hartpableo.com/
+RedirectMatch 301 /contact-me/ https://hartpableo.com/
+RedirectMatch 301 /hi-there-i-am-hart/ https://hartpableo.com/
+RedirectMatch 301 /how-i-became-a-wordpress-web-developer/ https://hartpableo.com/
+RedirectMatch 301 /sitemap/ https://hartpableo.com/
+</IfModule>
